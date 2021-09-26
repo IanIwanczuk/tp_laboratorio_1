@@ -84,8 +84,10 @@ int main() {
 					MostrarResultadoSinFlag(multiplicacionNumeros, "(A*B) = ");
 					MostrarResultadoFlag(flagFactUno, factorialUno, "(!A) = ", "!A es demasiado grande.", "A no tiene factorial.");
 					MostrarResultadoFlag(flagFactDos, factorialDos, "(!B) = ", "!B es demasiado grande.", "B no tiene factorial.");
+				} else if(flagUno == 0 || flagDos == 0){
+					printf("Faltan ingresar numeros.\n");
 				} else {
-					printf("Falta realizar las opreaciones.\n");
+					printf("Falta realizar las operaciones.\n");
 				}
 				printf("_________________________________________\n\n");
 			break;
