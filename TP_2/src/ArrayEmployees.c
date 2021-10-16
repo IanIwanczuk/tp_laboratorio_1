@@ -6,10 +6,8 @@ int initEmployees(Employee list[], int len){
 	retorno = -1;
 	if(list != NULL && len > 0){
 		for(int i = 0; i < len; i++){
-			if(list[i].isEmpty != CARGADO){    // <---- SI LA LISTA YA ESTA CARGADA.
-				list[i].isEmpty = VACIO;
-				retorno = 0;
-			}
+			list[i].isEmpty = VACIO;
+			retorno = 0;
 		}
 	}
 	return retorno;

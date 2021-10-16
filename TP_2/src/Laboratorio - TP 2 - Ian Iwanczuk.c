@@ -5,7 +5,7 @@
 
 int main(void) {
 	setbuf(stdout, NULL);
-	Employee listaEmployees[QTYEMPL] = {{1010, "Ian", "Iwanczuk", 85000, 1, CARGADO},{1011, "Juan", "Gomez", 15830, 1, CARGADO},	{1012, "Ada", "Arrazo", 73796, 4, CARGADO},{1013, "Maria", "Gomez", 34376, 2, CARGADO},{1014, "Aaron", "Gomez", 53742, 4, CARGADO},{1015, "Polimorfica", "Gomez", 24367, 3, CARGADO}};
+	Employee listaEmployees[QTYEMPL]; // {{1010, "Ian", "Iwanczuk", 85000, 1, CARGADO},{1011, "Juan", "Gomez", 15830, 1, CARGADO},	{1012, "Ada", "Arrazo", 73796, 4, CARGADO},{1013, "Maria", "Gomez", 34376, 2, CARGADO},{1014, "Aaron", "Gomez", 53742, 4, CARGADO},{1015, "Polimorfica", "Gomez", 24367, 3, CARGADO}};
 	initEmployees(listaEmployees, QTYEMPL);
 	char opcion[TAM];
 	int flagEmptyMsg;
